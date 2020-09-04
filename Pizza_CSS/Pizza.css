@@ -1,0 +1,102 @@
+/* Body background color and starting margin at 0 */
+body {
+  background-color: green;
+  margin: 0;
+  
+}
+
+/* h1 Choosing font-family, color and aligning text */
+h1 {
+  font-family:'Trebuchet MS', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* h3 setting font family and font color*/
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+
+}
+
+/* div setting font family and font color */
+div {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+
+/* setting width heignt and margin of menu div */
+#menuBG {
+  width: 600px;
+  height: 470px;
+  margin: 20px auto;
+  
+}
+
+/* Form menu css.  Putting border on this helped me to see I needed to increase size to account for different font-family*/
+#frmMenu {
+  width: 600px;
+  height: 250px;
+  border: solid 3px black;
+  border-radius: 17px;
+  padding-left: 20px;
+  margin: 20px auto;
+  background-color: blue;
+}
+
+/* totalPrice formatting to show in proper place */
+#totalPrice {
+  width: 200px;
+  height: 190px;
+  margin: 50px auto;
+  float: left;
+}
+
+/* Pizza Sizes to the left  */
+.left {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+/*Vegetable topping menu items in the center. */
+.center {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+/* Meat toppings to the right */
+.right {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+/* Items chosen below menu and to the left */
+#showText {
+  width: 200px;
+  height: 190px;
+  margin: 50px auto;
+  float: left;
+}
+
+/* Cart(div) containing items chosen total amount and button after selections */
+#cart {
+  top: 0;
+  margin: 0px auto;
+  width: 500px;
+  height: 200px;
+}
+
+/* Button aligned right of the total */
+#btnOrder {
+	
+	width:100px;
+	height:40px;
+	display: block;
+  margin: 70px auto;
+  float: right;
+	}
